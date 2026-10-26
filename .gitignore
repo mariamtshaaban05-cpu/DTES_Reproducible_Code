@@ -1,0 +1,20 @@
+# ignore everything
+*
+# but let Git look inside folders
+!*/
+# allow only code/text
+!*.py
+!*.ipynb
+!*.md
+!.gitignore
+!requirements.txt
+!environment.yml
+
+# re-exclude junk that contains .py files (must come AFTER the allows)
+venv/
+.venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+node_modules/
+site-packages/
